@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import {BelongsToOptions, HasOneOptions, HasManyOptions, ManyToManyOptions} from 'sequelize';
+import {BelongsToOptions, HasOneOptions, HasManyOptions, ManyToManyOptions} from 'sequelize-dm8';
 import {BaseAssociation} from './base-association';
 
 const ASSOCIATIONS_KEY = 'sequelize:associations';

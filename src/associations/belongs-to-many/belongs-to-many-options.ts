@@ -1,4 +1,4 @@
-import {BelongsToManyOptions as OriginBelongsToManyOptions} from 'sequelize';
+import {BelongsToManyOptions as OriginBelongsToManyOptions} from 'sequelize-dm8';
 import {ModelClassGetter} from "../../model/shared/model-class-getter";
 import {ThroughOptions} from "../through/through-options";
 

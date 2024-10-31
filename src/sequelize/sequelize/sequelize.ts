@@ -1,4 +1,4 @@
-import {InitOptions, Sequelize as OriginSequelize} from 'sequelize';
+import {InitOptions, Sequelize as OriginSequelize} from 'sequelize-dm8';
 import {ModelNotInitializedError} from "../../model/shared/model-not-initialized-error";
 import {ModelMatch, SequelizeOptions} from "./sequelize-options";
 import {getModels, prepareArgs} from "./sequelize-service";

@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-typescript",
-  "version": "1.1.0",
-  "description": "Decorators and some other features for sequelize",
+  "name": "sequelize-typescript-dm8",
+  "version": "1.0.0",
+  "description": "Decorators and some other features for sequelize + DM8",
   "scripts": {
     "build": "tsc",
     "test": "mocha",
@@ -16,7 +16,7 @@
   "keywords": [
     "orm",
     "object relational mapper",
-    "sequelize",
+    "sequelize-dm8",
     "typescript",
     "decorators",
     "mysql",
@@ -53,6 +53,7 @@
     "chai-datetime": "1.4.1",
     "codecov": "3.1.0",
     "copyfiles": "2.1.0",
+    "dmdb": "1.0.24984",
     "has-flag": "2.0.0",
     "lodash": "4.17.13",
     "mocha": "5.2.0",
@@ -61,22 +62,20 @@
     "nyc": "13.3.0",
     "prettyjson": "1.2.1",
     "reflect-metadata": "0.1.9",
-    "sequelize": "5.15.1",
+    "sequelize-dm8": "5.0.2",
     "sinon": "1.17.7",
     "sinon-chai": "2.8.0",
     "source-map-support": "0.4.14",
-    "sqlite3": "4.0.4",
     "ts-node": "7.0.1",
     "tslint": "5.14.0",
-    "typescript": "3.3.3",
+    "typescript": "4.4.4",
     "uuid-validate": "0.0.2"
   },
   "peerDependencies": {
     "@types/bluebird": "*",
     "@types/node": "*",
     "@types/validator": "*",
-    "reflect-metadata": "*",
-    "sequelize": "^5.1.0"
+    "reflect-metadata": "*"
   },
   "engines": {
     "node": ">=0.8.15"

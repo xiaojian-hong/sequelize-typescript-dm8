@@ -1,6 +1,6 @@
 import {ScopeTableOptions} from './scope-table-options';
 import {ScopeFindOptions} from "./scope-find-options";
-import {FindOptions} from "sequelize";
+import {FindOptions} from "sequelize-dm8";
 
 export interface ScopeOptions extends ScopeTableOptions {
   defaultScope?: ScopeFindOptions;

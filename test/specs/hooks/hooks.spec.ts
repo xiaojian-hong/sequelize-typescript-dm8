@@ -1,4 +1,4 @@
-import * as OriginSequelize from 'sequelize';
+import * as OriginSequelize from 'sequelize-dm8';
 import * as chai from 'chai';
 import * as sinon from 'sinon';
 import * as sinonChai from 'sinon-chai';

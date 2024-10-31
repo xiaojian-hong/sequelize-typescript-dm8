@@ -1,4 +1,4 @@
-import {DataTypeAbstract, ModelOptions} from 'sequelize';
+import {DataTypeAbstract, ModelOptions} from 'sequelize-dm8';
 
 import {Model} from '../model/model';
 import {inferDataType} from "../../sequelize/data-type/data-type-service";

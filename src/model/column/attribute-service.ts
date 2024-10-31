@@ -1,5 +1,5 @@
 import {deepAssign} from '../../shared/object';
-import {ModelAttributeColumnOptions} from "sequelize";
+import {ModelAttributeColumnOptions} from "sequelize-dm8";
 
 const ATTRIBUTES_KEY = 'sequelize:attributes';
 

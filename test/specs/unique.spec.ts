@@ -1,5 +1,5 @@
 import {getAttributes, Model, Sequelize} from "../../src";
-import {Op} from "sequelize";
+import {Op} from "sequelize-dm8";
 import {expect} from "chai";
 import {Table} from "../../src/model/table/table";
 import {Column} from "../../src/model/column/column";

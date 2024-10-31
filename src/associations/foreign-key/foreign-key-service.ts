@@ -1,4 +1,4 @@
-import {ForeignKeyOptions, Model} from "sequelize";
+import {ForeignKeyOptions, Model} from "sequelize-dm8";
 
 import {ForeignKeyMeta} from './foreign-key-meta';
 import {ModelClassGetter} from "../../model/shared/model-class-getter";

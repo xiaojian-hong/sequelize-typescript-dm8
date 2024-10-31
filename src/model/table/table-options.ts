@@ -1,4 +1,4 @@
-import {ModelOptions} from "sequelize";
+import {ModelOptions} from "sequelize-dm8";
 
 export interface TableOptions extends ModelOptions {
   modelName?: string;

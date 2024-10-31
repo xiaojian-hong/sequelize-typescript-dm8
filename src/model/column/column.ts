@@ -1,4 +1,4 @@
-import {ModelAttributeColumnOptions, DataType} from 'sequelize';
+import {ModelAttributeColumnOptions, DataType} from 'sequelize-dm8';
 
 import {addAttribute} from './attribute-service';
 import {isDataType} from "../../sequelize/data-type/data-type-service";

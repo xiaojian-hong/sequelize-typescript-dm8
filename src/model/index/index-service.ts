@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import {IndexesOptions as SequelizeIndexOptions} from 'sequelize';
+import {IndexesOptions as SequelizeIndexOptions} from 'sequelize-dm8';
 
 const INDEXES_KEY = 'sequelize:indexes';
 

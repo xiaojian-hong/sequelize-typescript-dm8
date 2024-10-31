@@ -1,4 +1,4 @@
-import {Association, FindOptions, IncludeOptions} from "sequelize";
+import {Association, FindOptions, IncludeOptions} from "sequelize-dm8";
 import {ModelClassGetter} from "../model/shared/model-class-getter";
 
 export type ScopeIncludeOptions = {

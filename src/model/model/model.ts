@@ -1,4 +1,4 @@
-import {InitOptions, Model as OriginModel, ModelAttributes, FindOptions, BuildOptions, Promise} from 'sequelize';
+import {InitOptions, Model as OriginModel, ModelAttributes, FindOptions, BuildOptions, Promise} from 'sequelize-dm8';
 import {capitalize} from '../../shared/string';
 import {inferAlias} from '../../associations/alias-inference/alias-inference-service';
 import {ModelNotInitializedError} from '../shared/model-not-initialized-error';

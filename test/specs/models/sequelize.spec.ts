@@ -17,12 +17,12 @@ import ShoeDir from "../../models/globs/match-dir-only/ShoeDir";
 import {Table} from '../../../src/model/table/table';
 import {Match} from '../../models/exports/custom-match/match.model';
 import {Model, Sequelize} from "../../../src";
-import {Op} from "sequelize";
+import {Op} from "sequelize-dm8";
 import {join} from 'path';
 import {AddressDir} from "../../models/globs/match-files/AddressDir";
 import {UserDir} from "../../models/globs/match-files/UserDir";
 
-describe('sequelize', () => {
+describe('sequelize-dm8', () => {
 
   let sequelize: Sequelize;
 

@@ -1,4 +1,4 @@
-import {FindOptions} from "sequelize";
+import {FindOptions} from "sequelize-dm8";
 
 import {Model} from "../model/model/model";
 import {deepAssign} from "../shared/object";

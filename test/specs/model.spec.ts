@@ -6,7 +6,7 @@ import * as sinonChai from 'sinon-chai';
 import * as _ from 'lodash';
 import * as moment from 'moment';
 import * as Promise from 'bluebird';
-import {Op, UniqueConstraintError} from 'sequelize';
+import {Op, UniqueConstraintError} from 'sequelize-dm8';
 import * as chaiAsPromised from 'chai-as-promised';
 import {createSequelize} from "../utils/sequelize";
 import {
@@ -2679,7 +2679,7 @@ describe('model', () => {
   //   describe('buffers', () => {
   //     it('should be able to take a buffer as parameter to a BLOB field', () => {
   //       return this.BlobUser.create({
-  //         data: new Buffer('Sequelize')
+  //         data: new Buffer('sequelize-dm8')
   //       }).then((user) => {
   //         expect(user).to.be.ok;
   //       });
@@ -2688,11 +2688,11 @@ describe('model', () => {
   //     it('should return a buffer when fetching a blob', () => {
   //       const self = this;
   //       return this.BlobUser.create({
-  //         data: new Buffer('Sequelize')
+  //         data: new Buffer('sequelize-dm8')
   //       }).then((user) => {
   //         return self.BlobUser.findById(user.id).then((user) => {
   //           expect(user.data).to.be.an.instanceOf(Buffer);
-  //           expect(user.data.toString()).to.have.string('Sequelize');
+  //           expect(user.data.toString()).to.have.string('sequelize-dm8');
   //         });
   //       });
   //     });
@@ -2712,13 +2712,13 @@ describe('model', () => {
   //   if (dialect !== 'mssql') {
   //     // NOTE: someone remember to inform me about the intent of these tests. Are
   //     //       you saying that data passed in as a string is automatically converted
-  //     //       to binary? i.e. "Sequelize" is CAST as binary, OR that actual binary
+  //     //       to binary? i.e. "sequelize-dm8" is CAST as binary, OR that actual binary
   //     //       data is passed in, in string form? Very unclear, and very different.
   //
   //     describe('strings', () => {
   //       it('should be able to take a string as parameter to a BLOB field', () => {
   //         return this.BlobUser.create({
-  //           data: 'Sequelize'
+  //           data: 'sequelize-dm8'
   //         }).then((user) => {
   //           expect(user).to.be.ok;
   //         });
@@ -2727,11 +2727,11 @@ describe('model', () => {
   //       it('should return a buffer when fetching a BLOB, even when the BLOB was inserted as a string', () => {
   //         const self = this;
   //         return this.BlobUser.create({
-  //           data: 'Sequelize'
+  //           data: 'sequelize-dm8'
   //         }).then((user) => {
   //           return self.BlobUser.findById(user.id).then((user) => {
   //             expect(user.data).to.be.an.instanceOf(Buffer);
-  //             expect(user.data.toString()).to.have.string('Sequelize');
+  //             expect(user.data.toString()).to.have.string('sequelize-dm8');
   //           });
   //         });
   //       });

@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {Op} from 'sequelize';
+import {Op} from 'sequelize-dm8';
 
 import {BelongsToMany} from "../../src/associations/belongs-to-many/belongs-to-many";
 import {Table} from "../../src/model/table/table";

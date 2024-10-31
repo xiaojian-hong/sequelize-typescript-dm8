@@ -1,6 +1,6 @@
 import {expect, use} from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
-import {ModelAttributes} from 'sequelize';
+import {ModelAttributes} from 'sequelize-dm8';
 import {Model, Table, Column, DataType} from "../../src";
 import {createSequelize} from "../utils/sequelize";
 import {User} from "../models/User";

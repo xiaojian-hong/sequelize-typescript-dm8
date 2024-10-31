@@ -2,7 +2,7 @@ import * as Promise from 'bluebird';
 import { expect, use } from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
 import { useFakeTimers } from 'sinon';
-import { ValidationError } from 'sequelize';
+import { ValidationError } from 'sequelize-dm8';
 import * as validateUUID from 'uuid-validate';
 import chaiDatetime = require('chai-datetime');
 
@@ -27,7 +27,7 @@ import { createSequelize } from "../utils/sequelize";
 
 // TODO@robin create belongs to many with through options "add" test
 
-const {InstanceError} = require('sequelize');
+const {InstanceError} = require('sequelize-dm8');
 
 use(chaiAsPromised);
 use(chaiDatetime);
@@ -1390,13 +1390,13 @@ describe('instance', () => {
         .then((user) => {
 
           user.bNumber = Sequelize.col('aNumber') as any;
-          user.username = Sequelize.fn('upper', 'sequelize') as any;
+          user.username = Sequelize.fn('upper', 'sequelize-dm8') as any;
 
           return user
             .save()
             .then(() => User.findByPk(user.id))
             .then((user2) => {
-              expect(user2.username).to.equal('SEQUELIZE');
+              expect(user2.username).to.equal('sequelize-dm8');
               expect(user2.bNumber).to.equal(42);
             });
         })

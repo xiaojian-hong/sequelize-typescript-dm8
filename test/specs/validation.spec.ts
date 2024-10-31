@@ -2,7 +2,7 @@
 
 import {expect, use} from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
-import {ModelValidateOptions} from "sequelize";
+import {ModelValidateOptions} from "sequelize-dm8";
 import {createSequelize, createSequelizeValidationOnly} from "../utils/sequelize";
 import {
   ShoeWithValidation, KEY_VALUE, PARTIAL_SPECIAL_VALUE, BRAND_LENGTH,

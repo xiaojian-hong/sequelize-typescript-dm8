@@ -2,7 +2,7 @@
 
 import {expect, use} from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
-import * as OriginSequelize from 'sequelize';
+import * as OriginSequelize from 'sequelize-dm8';
 import * as Promise from 'bluebird';
 import {createSequelize} from "../utils/sequelize";
 import {

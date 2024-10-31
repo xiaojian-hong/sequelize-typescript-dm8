@@ -1,4 +1,4 @@
-import {HasOneOptions} from "sequelize";
+import {HasOneOptions} from "sequelize-dm8";
 
 import {HasAssociation} from './has-association';
 import {ModelClassGetter} from "../../model/shared/model-class-getter";

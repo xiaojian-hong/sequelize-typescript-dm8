@@ -1,4 +1,4 @@
-import {BelongsToOptions} from 'sequelize';
+import {BelongsToOptions} from 'sequelize-dm8';
 
 import {BaseAssociation} from '../shared/base-association';
 import {getForeignKeyOptions} from "../foreign-key/foreign-key-service";

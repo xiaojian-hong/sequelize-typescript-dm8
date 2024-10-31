@@ -1,4 +1,4 @@
-import {HasManyOptions, HasOneOptions, Model} from 'sequelize';
+import {HasManyOptions, HasOneOptions, Model} from 'sequelize-dm8';
 
 import {BaseAssociation} from '../shared/base-association';
 import {getForeignKeyOptions} from "../foreign-key/foreign-key-service";

@@ -1,4 +1,4 @@
-import {Options} from "sequelize";
+import {Options} from "sequelize-dm8";
 import {ModelCtor} from "../../model/model/model";
 
 export type ModelMatch = (filename: string, member: string) => boolean;

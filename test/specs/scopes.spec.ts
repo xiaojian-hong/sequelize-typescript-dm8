@@ -1,7 +1,7 @@
 import {expect, use} from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
 import {useFakeTimers} from 'sinon';
-import {Op} from 'sequelize';
+import {Op} from 'sequelize-dm8';
 import {createSequelize} from "../utils/sequelize";
 import {getScopeOptions} from "../../src/scopes/scope-service";
 import {ShoeWithDeprecatedScopes, SHOE_DEFAULT_SCOPE, SHOE_SCOPES} from "../models/ShoeWithDeprecatedScopes";

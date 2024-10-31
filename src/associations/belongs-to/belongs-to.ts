@@ -1,4 +1,4 @@
-import {BelongsToOptions} from 'sequelize';
+import {BelongsToOptions} from 'sequelize-dm8';
 
 import {BelongsToAssociation} from './belongs-to-association';
 import {ModelClassGetter} from "../../model/shared/model-class-getter";

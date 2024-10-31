@@ -1,4 +1,4 @@
-import {BelongsToManyOptions as OriginBelongsToManyOptions, Model, ThroughOptions} from "sequelize";
+import {BelongsToManyOptions as OriginBelongsToManyOptions, Model, ThroughOptions} from "sequelize-dm8";
 
 import {BaseAssociation} from '../shared/base-association';
 import {BelongsToManyOptions} from './belongs-to-many-options';

@@ -1,4 +1,4 @@
-import {DataType, DataTypeAbstract, DataTypes} from 'sequelize';
+import {DataType, DataTypeAbstract, DataTypes} from 'sequelize-dm8';
 
 /*
  * Checks if specified value is a sequelize data type (ABSTRACT, STRING...)

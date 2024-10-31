@@ -1,4 +1,4 @@
-import {ModelValidateOptions} from 'sequelize';
+import {ModelValidateOptions} from 'sequelize-dm8';
 
 import {addAttributeOptions} from "../model/column/attribute-service";
 
